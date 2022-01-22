@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <link rel="stylesheet" href="css/style3.css">
+  <body>
+    <div class="img">
+    <h1 id="title"> SURVEY FORM</h1>
+    <p id="description">
+      <i>  Thank you for taking your time to fill this form</i></p>
+
+    <form id="survey-form" >
+      <div class="forms">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name"placeholder="Enter Your Name" required/>
+      </div><br>
+      <div class="forms">
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" placeholder="Enter your email"  required/>
+      </div><br>
+      <div class="forms">
+        <label for="number"  id="number-label">Age</label><br>
+        <input type="number" id="number" placeholder="Age" min="9" max="20" required/>
+      </div><br>
+      <div class="forms">
+        <label >Sex</label><br>
+        <select id="dropdown">
+          <option value="Select">Select</option>
+          <option value="Male" > Male</option>
+          <option value="Female" >Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div><br>
+        <div class="forms">
+          <label>Which do you prefer</label> <br>
+          <label ><input type="radio" value=" disc" name="preference ">Art and Culture</label><br>
+          <label ><input type="radio" value=" disc" name="preference ">Science and Technology</label><br>
+          <label><input type="radio" value=" disc" name="preference ">Gaming</label><br>
+      </div><br>
+      <div class="formss">
+        <label>What do you like?</label><br>
+        <label><input type="checkbox" value="box">Dancing</label><br>
+        <label><input type="checkbox" value="box">Music</label><br>
+        <label><input type="checkbox" value="box">Poetry</label><br>
+        <label><input type="checkbox" value="box">Painting</label><br>
+        <label><input type="checkbox" value="box">Photography</label><br>
+        <label><input type="checkbox" value="box">Heritage</label><br>
+        <label><input type="checkbox" value="box">Literature</label><br>
+        <label><input type="checkbox" value="box">Handicrafts</label><br>
+        <label><input type="checkbox" value="box">Festivals and Fairs</label><br>
+        <label><input type="checkbox" value="box">Handicrafts</label><br>
+       </div><br>
+      <div class="forms">
+        <label>What you like to do in free time?</label><br>
+        <label><input type="radio" name="preference" value="disc">Music</label><br>
+        <label><input type="radio" name="preference" value="disc">Painting</label><br>
+        <label><input type="radio" name="preference"value="disc">Dancing</label><br>
+      </div><br>
+      <div class="formss">
+        <label>Which music you like the most</label><br>
+        <label><input type="checkbox" value="box">Hindi</label><br>
+        <label><input type="checkbox" value="box">English</label><br>
+        <label><input type="checkbox" value="box">KPOP</label><br>
+        <label><input type="checkbox" value="box">Punjabi</label><br>
+        <label><input type="checkbox" value="box">Bhojpuri</label><br>
+      </div><br>
+      <div class="forms">
+        <label>Any comments?</label><br>
+        <textarea id="comment" placeholder="Enter your comment here"></textarea><br><br>
+        <button type="submit" id="submit" value="submit">Submit</button>
+
+        </form>
+      </body>
+      </html>
